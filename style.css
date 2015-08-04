@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #725384;
+}
+
+.wrapper {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	height: 150px;
+	margin: auto;	
+	width: 400px;
+	background: #76B05E;
+	padding: 18px 15px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 18px;
+}
+
+label, input, p, a {
+	font-size: 25px;
+	color: #444;
+}
+
+label {
+	display: block;
+}
+
+.input-wrap {
+	font-size: 0;
+	margin: 9px 0;
+	width: 100%;
+}
+
+input[type="text"],
+input[type="submit"] {
+	height: 50px;
+	border: none;
+	padding: 0 8px;
+}
+
+input[type="text"] {
+	width: 250px;
+}
+
+input[type="submit"] {
+	width: 130px;
+	background-color: #ED7B7B;
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]::-moz-focus-inner {border:0;}
+
+.copyRight {
+	position: fixed;
+	bottom: 18px;
+	right: 15px;
+	color: #333;
+}
+
+
